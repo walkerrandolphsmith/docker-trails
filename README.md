@@ -1,9 +1,11 @@
 # docker-trails
-Docker, Docker Hub, Ngnix, Let's Encrypt, Docker-gen, Triple Triad.. An Adventure
+Document the process of Hosting various docker containers containing applications developed by me on Digital Ocean.
 
+##Digital Ocean
+[digital ocean](https://www.digitalocean.com/) cloud computing for developers.
 
 ##Docker
-Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
+[Docker](https://www.docker.com/what-docker) containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
 
 ```bash
 #aggregates the output of each container
@@ -40,7 +42,7 @@ eval $(docker-machine env default)
 ```
 
 ##Docker Hub
-Host docker images for the community much like github hosts repositories.
+[Docker Hub](https://hub.docker.com) Host docker images for the community much like github hosts repositories.
 
 As an example to get the latest docker image for ngnix issue the following command: 
 ```docker pull jwilder/nginx-proxy```
